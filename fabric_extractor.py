@@ -17,8 +17,9 @@ SOFTWARE.
 import zipfile
 import os
 import shutil
+import sys
 
-file = input("File to process: ")
+file = sys.argv[1]
 mod_jar = zipfile.ZipFile(file, 'r')
 
 os.mkdir("extracted")
