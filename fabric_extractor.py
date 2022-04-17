@@ -1,4 +1,4 @@
-# manifest-creator
+# fabric_extractor.py
 
 import zipfile
 import os
