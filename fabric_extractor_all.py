@@ -12,7 +12,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-# fabric_extractor.py
+# fabric_extractor_all.py
+# Extracts all of the `fabric.mod.json` files
 
 import zipfile
 import os
